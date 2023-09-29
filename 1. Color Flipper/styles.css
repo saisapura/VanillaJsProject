@@ -7,9 +7,12 @@
     
 /* Center the button and h2 */
 .container {
-    text-align: center;
-    margin-top: 300px;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
   
   /* Apply a nice font to the entire body */
   body {
